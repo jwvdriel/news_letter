@@ -23,8 +23,12 @@ body {
   background-color: var(--body-background-color);
   display: grid;
   place-content: center;
+  margin: 18.5rem 10.8125rem;
 }
 
 .card {
   background-color: var(--main-card-color);
+  width: 100%;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.52);
+  border-radius: 1rem;
 }
