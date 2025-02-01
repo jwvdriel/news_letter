@@ -1,5 +1,30 @@
+:root {
+  /* fonts */
+  --poppins: 'Poppins', serif;
+  --merriweather: 'Merriweather', serif;
+
+  /* colors */
+  --button-heading-color: #111827;
+  --placeholrd-color: #b3b8d8;
+  --main-card-color: #ffffff;
+  --subheading-color: #374151;
+  --body-background-color: #e6e9fb;
+  --input-background-color: #fafaff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* desktop desing 1440px */
+body {
+  background-color: var(--body-background-color);
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  background-color: var(--main-card-color);
 }
