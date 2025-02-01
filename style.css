@@ -10,6 +10,7 @@
   --subheading-color: #374151;
   --body-background-color: #e6e9fb;
   --input-background-color: #fafaff;
+  --input-checkbox-background: #d9d9d9;
 }
 
 * {
@@ -58,14 +59,62 @@ body {
   margin-bottom: 1.5rem;
 }
 
-input {
-  padding: 2rem 1rem;
+.input-form {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 0.75rem;
+}
+
+.email-input {
+  padding: 1rem 2rem;
   background-color: var(--input-background-color);
   border: 1px solid var(--placeholrd-color);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0.5rem;
+  outline: none;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: var(--poppins);
 }
 
-/* input::placeholder {
-    font-size: ;
-} */
+.email-input::placeholder {
+  padding-left: 0.625rem;
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--placeholrd-color);
+  cursor: pointer;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: var(--button-heading-color);
+  font-family: var(--poppins);
+  font-weight: 500;
+  color: var(--main-card-color);
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.agree-section {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 4.625rem auto;
+}
+
+.checkbox-input {
+  margin-right: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.agree-text {
+  font-family: var(--poppins);
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--button-heading-color);
+}
