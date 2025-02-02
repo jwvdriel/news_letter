@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-/* desktop desing 1440px */
+/* desktop design 1440px */
 body {
   background-color: var(--body-background-color);
   display: grid;
